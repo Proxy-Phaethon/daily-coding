@@ -19,9 +19,58 @@ Daily Python practice — one small program a day, working from fundamentals up 
 
 </div>
 
-## Goal
+# Python Daily
 
-Consistency over intensity. Every day, write and commit one Python program. Start simple, gradually increase complexity, and use this repo as a running log of progress — from basic scripts to (eventually) implementing core ML/NLP concepts from scratch.
+A hands-on Python learning project built around one rule:
+
+> **Build one Python program every day.**
+
+## Interactive Lab
+
+The repository includes an interactive web interface for exploring the projects.
+
+**Live Site:** [Python Lab](https://daily-coding-rga0.onrender.com)
+
+Projects with interactive implementations can be tested directly through the website, allowing visitors to explore the programs without cloning the repository.
+
+```text
+                    PYTHON DAILY
+                         │
+              ┌──────────┴──────────┐
+              │                     │
+          Python Projects       Interactive Lab
+              │                     │
+       ┌──────┼──────┐              ▼
+       │      │      │          HTML / CSS / JS
+     Tools  Games  Algorithms
+       │      │      │
+       └──────┴──────┘
+```
+
+## Interactive Projects
+
+Some projects include browser-based interfaces.
+
+Other projects may include games, visualizations, data tools, or other interactive demonstrations.
+
+The Python implementation remains the source project, while the website provides an accessible way to explore it.
+
+## Technology
+
+### Core
+
+* Python
+
+### Web
+
+* HTML
+* CSS
+* JavaScript
+
+### Deployment
+
+* GitHub
+* Render
 
 ## Progress Log
 
