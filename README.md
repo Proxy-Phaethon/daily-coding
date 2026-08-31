@@ -15,45 +15,21 @@
 
 Daily Python practice — one small program a day, working from fundamentals up toward building my own Small Language Model (SLM).
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+
 </div>
 
 ## Goal
 
 Consistency over intensity. Every day, write and commit one Python program. Start simple, gradually increase complexity, and use this repo as a running log of progress — from basic scripts to (eventually) implementing core ML/NLP concepts from scratch.
 
-## Structure
-
-Each day gets its own folder, numbered sequentially:
-
-```
-daily-coding/
-├── day-001-calculator/
-│   ├── calculator.py
-│   └── README.md
-├── day-002-.../
-│   └── ...
-└── README.md
-```
-
-Each day's folder contains:
-- The program itself
-- A short `README.md` explaining what it does, what was learned, and any challenges hit
-
 ## Progress Log
 
-| Day | Project | Concepts Practiced |
-|-----|---------|---------------------|
-| 001 | Calculator | Functions, input handling, control flow, error handling |
+```text
+[✓] Calculator
+```
 
 *(updated daily)*
-
-## Roadmap (loose, evolving)
-
-- **Phase 1 — Fundamentals:** small CLI tools, data structures, file I/O, OOP basics
-- **Phase 2 — Applied Python:** APIs, scripting, automation, testing
-- **Phase 3 — Math & ML foundations:** linear algebra, probability, NumPy/PyTorch basics
-- **Phase 4 — NLP building blocks:** tokenization, embeddings, attention, mini transformer components
-- **Phase 5 — SLM:** train a small language model from scratch
 
 ## Rules
 
