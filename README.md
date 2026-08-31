@@ -37,13 +37,3 @@ Consistency over intensity. Every day, write and commit one Python program. Star
 2. No skipping days without a note explaining why (life happens).
 3. Prefer understanding over copy-pasting — write it, break it, fix it.
 4. Refactor old days occasionally as skills improve.
-
-## Setup
-
-```bash
-git clone https://github.com/<your-username>/daily-coding.git
-cd daily-coding
-python3 -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt  # once dependencies exist
-```
