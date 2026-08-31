@@ -37,3 +37,4 @@ Consistency over intensity. Every day, write and commit one Python program. Star
 2. No skipping days without a note explaining why (life happens).
 3. Prefer understanding over copy-pasting — write it, break it, fix it.
 4. Refactor old days occasionally as skills improve.
+5. no AI.
