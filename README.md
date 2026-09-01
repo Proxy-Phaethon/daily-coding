@@ -76,6 +76,7 @@ The Python implementation remains the source project, while the website provides
 
 ```text
 [✓] Calculator
+[✓] To-Do List
 ```
 
 *(updated daily)*
