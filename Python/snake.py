@@ -1,4 +1,4 @@
-# this porject will uses the curses programming of python, since i work on a mac.
+# this project will uses the curses programming of python, since i work on a mac.
 # this involves using syntax related to C-variables.
 
 import curses
