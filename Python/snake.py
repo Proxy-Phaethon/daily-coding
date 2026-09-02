@@ -6,6 +6,11 @@ from curses import window, wrapper
 
 stdscr = curses.initscr()
 
+def check_coords(new_y, new_x):
+    if new_y < 1 or new_y > 18 or new_x < 1 or new_x > 98:
+        return False
+    return True
+
 def draw_border(stdscr):
         win = curses.newwin(20, 100, 2, 4)
         win.border(0, 0, 0, 0, 0, 0, 0, 0) 
@@ -19,16 +24,24 @@ def draw_border(stdscr):
             elif xy == ord('q'):
                 break
             elif xy == ord('w'):
-                win.addch(cood[0], cood[1], ' ')
-                cood = (cood[0] - 1, cood[1])
+                new_coords = (cood[0] - 1, cood[1])
+                if check_coords(new_coords[0], new_coords[1]):
+                    win.addch(cood[0], cood[1], ' ')
+                    cood = new_coords
             elif xy == ord('s'):
-                win.addch(cood[0], cood[1], ' ')
-                cood = (cood[0] + 1, cood[1])   
+                new_coords = (cood[0] + 1, cood[1])
+                if check_coords(new_coords[0], new_coords[1]):
+                    win.addch(cood[0], cood[1], ' ')
+                    cood = new_coords   
             elif xy == ord('a'):
-                win.addch(cood[0], cood[1], ' ')
-                cood = (cood[0], cood[1] - 1)
+                new_coords = (cood[0], cood[1] - 1)
+                if check_coords(new_coords[0], new_coords[1]):
+                    win.addch(cood[0], cood[1], ' ')
+                    cood = new_coords
             elif xy == ord('d'):
-                win.addch(cood[0], cood[1], ' ')
-                cood = (cood[0], cood[1] + 1)
+                new_coords = (cood[0], cood[1] + 1)
+                if check_coords(new_coords[0], new_coords[1]):
+                    win.addch(cood[0], cood[1], ' ')
+                    cood = new_coords
 
 curses.wrapper(draw_border)
