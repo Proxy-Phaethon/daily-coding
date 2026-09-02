@@ -77,6 +77,7 @@ The Python implementation remains the source project, while the website provides
 ```text
 [✓] Calculator
 [✓] To-Do List
+[ ] Terminal Snake Game
 ```
 
 *(updated daily)*
