@@ -22,29 +22,22 @@ def draw_border(stdscr):
             win.addch(food_y, food_x, '●')
             win.refresh()
             xy = win.getch()
-            if xy not in [ord('w'), ord('s'), ord('a'), ord('d'), ord('q')]:
-                pass
-            elif xy == ord('q'):
+
+            new_head = None
+
+            if xy == ord('q'):
                 break
             elif xy == ord('w'):
-                new_coords = [(cood[0][0] - 1, cood[0][1])]
-                if check_coords(new_coords[0][0], new_coords[0][1]):
-                    win.addch(cood[0][0], cood[0][1], ' ')
-                    cood = new_coords
+                new_head = (cood[0][0] - 1, cood[0][1])
             elif xy == ord('s'):
-                new_coords = [(cood[0][0] + 1, cood[0][1])]
-                if check_coords(new_coords[0][0], new_coords[0][1]):
-                    win.addch(cood[0][0], cood[0][1], ' ')
-                    cood = new_coords   
+                new_head = (cood[0][0] + 1, cood[0][1])
             elif xy == ord('a'):
-                new_coords = [(cood[0][0], cood[0][1] - 1)]
-                if check_coords(new_coords[0][0], new_coords[0][1]):
-                    win.addch(cood[0][0], cood[0][1], ' ')
-                    cood = new_coords
+                new_head = (cood[0][0], cood[0][1] - 1)
             elif xy == ord('d'):
-                new_coords = [(cood[0][0], cood[0][1] + 1)]
-                if check_coords(new_coords[0][0], new_coords[0][1]):
-                    win.addch(cood[0][0], cood[0][1], ' ')
-                    cood = new_coords
+                new_head = (cood[0][0], cood[0][1] + 1)
+
+            if new_head is not None and check_coords(new_head[0], new_head[1]):
+                win.addch(cood[0][0], cood[0][1], ' ')
+                cood = [new_head]
 
 curses.wrapper(draw_border)
