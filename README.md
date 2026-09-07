@@ -79,6 +79,7 @@ The Python implementation remains the source project, while the website provides
 [✓] To-Do List
 [✓] Terminal Snake Game (two-days. i'm sorry) (actually took three)
 [✓] Student-Management System
+[✓] Number Guessing Game
 ```
 
 *(updated daily)*
