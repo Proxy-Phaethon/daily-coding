@@ -80,6 +80,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Terminal Snake Game (two-days. i'm sorry) (actually took three)
 [✓] Student-Management System
 [✓] Number Guessing Game
+[✓] Word Guessing Game
 ```
 
 *(updated daily)*
