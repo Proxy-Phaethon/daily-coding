@@ -81,6 +81,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Student-Management System
 [✓] Number Guessing Game
 [✓] Word Guessing Game
+[✓] Rock-Paper-Scissors
 ```
 
 *(updated daily)*
