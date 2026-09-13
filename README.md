@@ -85,6 +85,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Compare Two PDFs
 [✓] Emoji Converter
 [✓] Voice Recorder
+[✓] Screen Recorder
 ```
 
 *(updated daily)*
