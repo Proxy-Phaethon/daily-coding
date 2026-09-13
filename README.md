@@ -82,6 +82,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Number Guessing Game
 [✓] Word Guessing Game
 [✓] Rock-Paper-Scissors
+[✓] Compare Two PDFs
 ```
 
 *(updated daily)*
