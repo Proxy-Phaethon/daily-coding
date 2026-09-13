@@ -83,6 +83,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Word Guessing Game
 [✓] Rock-Paper-Scissors
 [✓] Compare Two PDFs
+[✓] Emoji Converter
 ```
 
 *(updated daily)*
