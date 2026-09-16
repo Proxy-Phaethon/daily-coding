@@ -86,6 +86,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Emoji Converter
 [✓] Voice Recorder
 [✓] Screen Recorder
+[✓] Percy Jackson Text-Based Adventure Game
 ```
 
 *(updated daily)*
