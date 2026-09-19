@@ -90,7 +90,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Password Manager and Encrypter
 [✓] Live Weather Checker
 [✓] Text-Based Garden Simulator
-[ ] Tic-Tac-Toe
+[✓] Tic-Tac-Toe
 [ ] Minesweeper
 [ ] Battleship
 [ ] Connect Four
