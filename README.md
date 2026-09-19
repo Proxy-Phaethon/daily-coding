@@ -88,7 +88,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Screen Recorder
 [✓] Percy Jackson Text-Based Adventure Game
 [✓] Password Manager and Encrypter
-[ ] Live Weather Checker
+[✓] Live Weather Checker
 [ ] Text-Based Garden Simulator
 [ ] Tic-Tac-Toe
 [ ] Minesweeper
