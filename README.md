@@ -87,6 +87,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Voice Recorder
 [✓] Screen Recorder
 [✓] Percy Jackson Text-Based Adventure Game
+[✓] Password Manager and Encrypter
 ```
 
 *(updated daily)*
