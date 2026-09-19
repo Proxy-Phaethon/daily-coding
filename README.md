@@ -91,7 +91,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Live Weather Checker
 [✓] Text-Based Garden Simulator
 [✓] Tic-Tac-Toe
-[ ] Minesweeper
+[✓] Minesweeper
 [ ] Battleship
 [ ] Connect Four
 ```
