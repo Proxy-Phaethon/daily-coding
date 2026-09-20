@@ -92,7 +92,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Text-Based Garden Simulator
 [✓] Tic-Tac-Toe
 [✓] Minesweeper
-[ ] Battleship
+[✓] Battleship
 [ ] Connect Four
 ```
 
