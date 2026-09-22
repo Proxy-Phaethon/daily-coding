@@ -93,7 +93,7 @@ The Python implementation remains the source project, while the website provides
 [✓] Tic-Tac-Toe
 [✓] Minesweeper
 [✓] Battleship
-[ ] Connect Four
+[✓] Connect Four
 ```
 
 *(updated daily)*
